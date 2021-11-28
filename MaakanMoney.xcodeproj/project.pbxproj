@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23345DA27538301004E36D4 /* MaakanMoneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345D927538301004E36D4 /* MaakanMoneyApp.swift */; };
+		D23345DC27538301004E36D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345DB27538301004E36D4 /* ContentView.swift */; };
+		D23345DE27538303004E36D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23345DD27538303004E36D4 /* Assets.xcassets */; };
+		D23345E127538303004E36D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23345E027538303004E36D4 /* Preview Assets.xcassets */; };
+		D23345EB27538303004E36D4 /* MaakanMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345EA27538303004E36D4 /* MaakanMoneyTests.swift */; };
+		D23345F527538303004E36D4 /* MaakanMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345F427538303004E36D4 /* MaakanMoneyUITests.swift */; };
+		D23345F727538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345F627538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23345E727538303004E36D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23345CE27538301004E36D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23345D527538301004E36D4;
+			remoteInfo = MaakanMoney;
+		};
+		D23345F127538303004E36D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23345CE27538301004E36D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23345D527538301004E36D4;
+			remoteInfo = MaakanMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D23345D627538301004E36D4 /* MaakanMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaakanMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23345D927538301004E36D4 /* MaakanMoneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyApp.swift; sourceTree = "<group>"; };
+		D23345DB27538301004E36D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D23345DD27538303004E36D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D23345E027538303004E36D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D23345E627538303004E36D4 /* MaakanMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaakanMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23345EA27538303004E36D4 /* MaakanMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyTests.swift; sourceTree = "<group>"; };
+		D23345F027538303004E36D4 /* MaakanMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaakanMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23345F427538303004E36D4 /* MaakanMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyUITests.swift; sourceTree = "<group>"; };
+		D23345F627538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23345D327538301004E36D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345E327538303004E36D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345ED27538303004E36D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D23345CD27538301004E36D4 = {
+			isa = PBXGroup;
+			children = (
+				D23345D827538301004E36D4 /* MaakanMoney */,
+				D23345E927538303004E36D4 /* MaakanMoneyTests */,
+				D23345F327538303004E36D4 /* MaakanMoneyUITests */,
+				D23345D727538301004E36D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23345D727538301004E36D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23345D627538301004E36D4 /* MaakanMoney.app */,
+				D23345E627538303004E36D4 /* MaakanMoneyTests.xctest */,
+				D23345F027538303004E36D4 /* MaakanMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23345D827538301004E36D4 /* MaakanMoney */ = {
+			isa = PBXGroup;
+			children = (
+				D23345D927538301004E36D4 /* MaakanMoneyApp.swift */,
+				D23345DB27538301004E36D4 /* ContentView.swift */,
+				D23345DD27538303004E36D4 /* Assets.xcassets */,
+				D23345DF27538303004E36D4 /* Preview Content */,
+			);
+			path = MaakanMoney;
+			sourceTree = "<group>";
+		};
+		D23345DF27538303004E36D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D23345E027538303004E36D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D23345E927538303004E36D4 /* MaakanMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D23345EA27538303004E36D4 /* MaakanMoneyTests.swift */,
+			);
+			path = MaakanMoneyTests;
+			sourceTree = "<group>";
+		};
+		D23345F327538303004E36D4 /* MaakanMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D23345F427538303004E36D4 /* MaakanMoneyUITests.swift */,
+				D23345F627538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift */,
+			);
+			path = MaakanMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23345D527538301004E36D4 /* MaakanMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23345FA27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakanMoney" */;
+			buildPhases = (
+				D23345D227538301004E36D4 /* Sources */,
+				D23345D327538301004E36D4 /* Frameworks */,
+				D23345D427538301004E36D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaakanMoney;
+			productName = MaakanMoney;
+			productReference = D23345D627538301004E36D4 /* MaakanMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23345E527538303004E36D4 /* MaakanMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23345FD27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakanMoneyTests" */;
+			buildPhases = (
+				D23345E227538303004E36D4 /* Sources */,
+				D23345E327538303004E36D4 /* Frameworks */,
+				D23345E427538303004E36D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23345E827538303004E36D4 /* PBXTargetDependency */,
+			);
+			name = MaakanMoneyTests;
+			productName = MaakanMoneyTests;
+			productReference = D23345E627538303004E36D4 /* MaakanMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D23345EF27538303004E36D4 /* MaakanMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D233460027538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakanMoneyUITests" */;
+			buildPhases = (
+				D23345EC27538303004E36D4 /* Sources */,
+				D23345ED27538303004E36D4 /* Frameworks */,
+				D23345EE27538303004E36D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23345F227538303004E36D4 /* PBXTargetDependency */,
+			);
+			name = MaakanMoneyUITests;
+			productName = MaakanMoneyUITests;
+			productReference = D23345F027538303004E36D4 /* MaakanMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23345CE27538301004E36D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D23345D527538301004E36D4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D23345E527538303004E36D4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D23345D527538301004E36D4;
+					};
+					D23345EF27538303004E36D4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D23345D527538301004E36D4;
+					};
+				};
+			};
+			buildConfigurationList = D23345D127538301004E36D4 /* Build configuration list for PBXProject "MaakanMoney" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D23345CD27538301004E36D4;
+			productRefGroup = D23345D727538301004E36D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23345D527538301004E36D4 /* MaakanMoney */,
+				D23345E527538303004E36D4 /* MaakanMoneyTests */,
+				D23345EF27538303004E36D4 /* MaakanMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23345D427538301004E36D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23345E127538303004E36D4 /* Preview Assets.xcassets in Resources */,
+				D23345DE27538303004E36D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345E427538303004E36D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345EE27538303004E36D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23345D227538301004E36D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23345DC27538301004E36D4 /* ContentView.swift in Sources */,
+				D23345DA27538301004E36D4 /* MaakanMoneyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345E227538303004E36D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23345EB27538303004E36D4 /* MaakanMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345EC27538303004E36D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23345F727538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift in Sources */,
+				D23345F527538303004E36D4 /* MaakanMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23345E827538303004E36D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23345D527538301004E36D4 /* MaakanMoney */;
+			targetProxy = D23345E727538303004E36D4 /* PBXContainerItemProxy */;
+		};
+		D23345F227538303004E36D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23345D527538301004E36D4 /* MaakanMoney */;
+			targetProxy = D23345F127538303004E36D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D23345F827538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D23345F927538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23345FB27538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaakanMoney/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D23345FC27538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaakanMoney/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D23345FE27538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaakanMoney.app/MaakanMoney";
+			};
+			name = Debug;
+		};
+		D23345FF27538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaakanMoney.app/MaakanMoney";
+			};
+			name = Release;
+		};
+		D233460127538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaakanMoney;
+			};
+			name = Debug;
+		};
+		D233460227538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaakanMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23345D127538301004E36D4 /* Build configuration list for PBXProject "MaakanMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23345F827538303004E36D4 /* Debug */,
+				D23345F927538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23345FA27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakanMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23345FB27538303004E36D4 /* Debug */,
+				D23345FC27538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23345FD27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakanMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23345FE27538303004E36D4 /* Debug */,
+				D23345FF27538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D233460027538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakanMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D233460127538303004E36D4 /* Debug */,
+				D233460227538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23345CE27538301004E36D4 /* Project object */;
+}
