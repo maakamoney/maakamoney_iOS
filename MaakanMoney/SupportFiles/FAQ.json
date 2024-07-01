@@ -1,0 +1,27 @@
+
+
+{
+    "faq" : [
+        {
+            "id" : "1",
+            "question" : "How do I track my savings progress and goals?",
+            "answer" : "Our app provides you with intuitive tools and visualizations to track your savings progress and monitor your goals. You can view detailed reports, charts, and projections that help you stay motivated and informed about your financial journey."
+        },
+        {
+            "id" : "2",
+            "question" : "Is there a fee for using the Maaka app?",
+            "answer" : "We strive to keep our app accessible to everyone, which is why there are no subscription fees or hidden charges for using our service. Our goal is to help you save money and achieve your financial goals without adding any additional financial burden."
+        },
+        {
+            "id" : "3",
+            "question" : "How can I contact customer support if I have questions or concerns?",
+            "answer" : "Our dedicated customer support team is available to assist you with any questions or concerns you may have. You can reach out to us through the app's built-in messaging feature, email, or phone support during our business hours. Your satisfaction is our top priority, and we're here to help you every step of the way."
+        },
+        {
+            "id" : "4",
+            "question" : "People ask, what is your profit?",
+            "answer" : "Our vision for this product is to reach the maximum number of customers and provide the best quality of service. Profit is not our primary motive. We are committed to helping our users achieve their financial goals and fostering responsible saving habits."
+        }
+    ]
+}
+

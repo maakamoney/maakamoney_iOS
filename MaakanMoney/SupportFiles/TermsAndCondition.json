@@ -1,0 +1,37 @@
+
+
+{
+    "termsAndCondition" : [
+        {
+            "id" : "1",
+            "title" : "About Maaka App",
+            "description" : "Welcome to Maaka App, its a digital piggy bank designed to help you save and build an emergency fund. By using the Maaka App, you agree to the following terms."
+        },
+        {
+            "id" : "2",
+            "title" : "1. Savings and Emergency Fund:",
+            "description" : "Maaka's main goal is to encourage users to save liquid cash and create an emergency fund. We provide a platform for voluntary savings without imposing daily or mandatory contribution requirements."
+        },
+        {
+            "id" : "3",
+            "title" : "2. Voluntary Savings Requests:",
+            "description" : "As the administrator of Maaka, we send random voluntary savings requests via WhatsApp. These requests are not mandatory, you decide when and how much you want to save."
+        },
+        {
+            "id" : "4",
+            "title" : "3. Withdrawal Flexibility:",
+            "description" : "You have the freedom to withdraw you saved amount whenever you need it. However, as its a piggy bank concept, Maaka's administration will act as an intermediary when releasing your savings to your account. This ensures that you use your savings purposefully, rather thatn spending more than saving."
+        },
+        {
+            "id" : "5",
+            "title" : "4. Interest on Savings:",
+            "description" : "For each transaction involving your saved amount Maaka pays an interest randing from 0.1% to 0.3%. Please note that the maximum interest limit per day is restricted to Rs. 5(Indian Rupees Five Only)"
+        },
+        {
+            "id" : "6",
+            "title" : "5. Emergency Fund Commitment:",
+            "description" : "We are committed to growing your emergency fund so that your savings can tryly help you when you need it. If we fail to return your requested amount within 24 hours, Maaka promises to pay an additional 0.5% interest on the requested amount."
+        }
+    ]
+}
+

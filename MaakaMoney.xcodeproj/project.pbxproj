@@ -1,0 +1,1326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0516762BCA909500955E81 /* TermsAndCondition.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F0516752BCA898100955E81 /* TermsAndCondition.json */; };
+		0F05167C2BCAA53600955E81 /* TermsAndConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05167B2BCAA53600955E81 /* TermsAndConditionView.swift */; };
+		0F05167E2BCAA54C00955E81 /* TermsAndConditionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05167D2BCAA54C00955E81 /* TermsAndConditionViewModel.swift */; };
+		0F0516812BCAA5A100955E81 /* TermsAndConditionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0516802BCAA5A100955E81 /* TermsAndConditionModel.swift */; };
+		0F08F9562BCF995C00CF609E /* SaveMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F08F9552BCF995C00CF609E /* SaveMoneyView.swift */; };
+		0F11A24D2BC6750C008E2CBF /* FAQ.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F11A24C2BC6678E008E2CBF /* FAQ.json */; };
+		0F11A24F2BC68C57008E2CBF /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11A24E2BC68C57008E2CBF /* SettingsModel.swift */; };
+		0F13B0BF2B9DA4F00041266F /* MMUIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13B0BE2B9DA4F00041266F /* MMUIEnums.swift */; };
+		0F2420722BA569C5003985E0 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2420712BA569C5003985E0 /* AppTheme.swift */; };
+		0F2420752BA57B90003985E0 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2420742BA57B90003985E0 /* EnvironmentValues.swift */; };
+		0F2420772BA58CA7003985E0 /* GetMobileNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2420762BA58CA7003985E0 /* GetMobileNumberView.swift */; };
+		0F2420792BA58D6B003985E0 /* GetOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2420782BA58D6B003985E0 /* GetOTPView.swift */; };
+		0F24207B2BA596A1003985E0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24207A2BA596A1003985E0 /* SignUpView.swift */; };
+		0F2420832BA5C652003985E0 /* SetGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24207C2BA596B7003985E0 /* SetGoalsView.swift */; };
+		0F2E68372C02081000E18CFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F2E68362C02081000E18CFA /* GoogleService-Info.plist */; };
+		0F2E683A2C020F3000E18CFA /* FirebaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E68392C020F3000E18CFA /* FirebaseDataManager.swift */; };
+		0F2E683C2C02135F00E18CFA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E683B2C02135F00E18CFA /* FirebaseAnalytics */; };
+		0F2E683E2C02135F00E18CFA /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E683D2C02135F00E18CFA /* FirebaseAnalyticsOnDeviceConversion */; };
+		0F2E68402C02135F00E18CFA /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E683F2C02135F00E18CFA /* FirebaseAnalyticsSwift */; };
+		0F2E68422C02135F00E18CFA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E68412C02135F00E18CFA /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		0F2E68442C02135F00E18CFA /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E68432C02135F00E18CFA /* FirebaseAppDistribution-Beta */; };
+		0F2E68462C02135F00E18CFA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E68452C02135F00E18CFA /* FirebaseFirestore */; };
+		0F2E68482C02135F00E18CFA /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E68472C02135F00E18CFA /* FirebaseFirestoreCombine-Community */; };
+		0F2E684A2C02135F00E18CFA /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2E68492C02135F00E18CFA /* FirebaseFirestoreSwift */; };
+		0F3FE5C72C1B050A00901EBD /* MMUIAlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3FE5C62C1B050A00901EBD /* MMUIAlertMessage.swift */; };
+		0F5266502B9B01C900249849 /* MMUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F52664F2B9B01C900249849 /* MMUITextField.swift */; };
+		0F5BCBC92BD93E220025A854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5BCBC82BD93E220025A854 /* AppDelegate.swift */; };
+		0F5BCBCB2BD93E2A0025A854 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5BCBCA2BD93E2A0025A854 /* SceneDelegate.swift */; };
+		0F5FCB0F2BB605150076D613 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCB0E2BB605150076D613 /* GoalView.swift */; };
+		0F5FCB172BB605680076D613 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCB162BB605680076D613 /* SettingsView.swift */; };
+		0F5FCB192BB605730076D613 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCB182BB605730076D613 /* HomeView.swift */; };
+		0F5FCB1F2BB605BB0076D613 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5FCB1E2BB605BB0076D613 /* DashboardView.swift */; };
+		0F6206E02BEBFDEC00F22835 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6206DF2BEBFDEC00F22835 /* CoreDataManager.swift */; };
+		0F70EF932BA33E2F00AA06F9 /* MMUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70EF922BA33E2F00AA06F9 /* MMUIButton.swift */; };
+		0F70EFF92BE6885300313F93 /* MaakaMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F70EFF72BE6885300313F93 /* MaakaMoney.xcdatamodeld */; };
+		0F843C122BB6CCF900881C97 /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F843C112BB6CCF900881C97 /* GoalViewModel.swift */; };
+		0F843C142BB6CD7100881C97 /* GoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F843C132BB6CD7100881C97 /* GoalModel.swift */; };
+		0F843C162BB6D2CC00881C97 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F843C152BB6D2CC00881C97 /* DashboardViewModel.swift */; };
+		0F843C182BB6FBF900881C97 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F843C172BB6FBF900881C97 /* SettingsViewModel.swift */; };
+		0F9A08282B84B7B5009B0195 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9A08272B84B7B5009B0195 /* LoginView.swift */; };
+		0F9F52BC2BC95FE8008ACA54 /* AppProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F52BB2BC95FE8008ACA54 /* AppProtocols.swift */; };
+		0FACC2AF2BA4D10100D49548 /* MMUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FACC2AE2BA4D10100D49548 /* MMUIExtensions.swift */; };
+		0FB0F01C2BEF936200E55661 /* SetGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0F01B2BEF936200E55661 /* SetGoalViewModel.swift */; };
+		0FB0F01E2BEF9AEF00E55661 /* SaveMoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0F01D2BEF9AEF00E55661 /* SaveMoneyViewModel.swift */; };
+		0FD2D2012BC57C72009ACB70 /* SecurityShieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2D2002BC57C72009ACB70 /* SecurityShieldView.swift */; };
+		0FD2D2032BC57C80009ACB70 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2D2022BC57C80009ACB70 /* RemindersView.swift */; };
+		0FD2D2052BC57C8C009ACB70 /* HelpAndSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2D2042BC57C8C009ACB70 /* HelpAndSupportView.swift */; };
+		0FE2B7E42BB4462F004EF2DF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2B7E32BB4462F004EF2DF /* AppCoordinator.swift */; };
+		0FE2B7E62BB4A68C004EF2DF /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2B7E52BB4A68C004EF2DF /* AuthenticationCoordinator.swift */; };
+		0FE2B7E82BB4A6E3004EF2DF /* DashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2B7E72BB4A6E3004EF2DF /* DashboardCoordinator.swift */; };
+		0FE2B7EA2BB4A702004EF2DF /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2B7E92BB4A702004EF2DF /* SettingsCoordinator.swift */; };
+		D2292883276C66FF00919369 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2292882276C66FF00919369 /* Utilities.swift */; };
+		D230D6D7275A00E6004B64AA /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D230D6D6275A00E6004B64AA /* Modifiers.swift */; };
+		D23345DA27538301004E36D4 /* MaakanMoneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345D927538301004E36D4 /* MaakanMoneyApp.swift */; };
+		D23345DE27538303004E36D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23345DD27538303004E36D4 /* Assets.xcassets */; };
+		D23345E127538303004E36D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23345E027538303004E36D4 /* Preview Assets.xcassets */; };
+		D23345EB27538303004E36D4 /* MaakanMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345EA27538303004E36D4 /* MaakanMoneyTests.swift */; };
+		D23345F527538303004E36D4 /* MaakanMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345F427538303004E36D4 /* MaakanMoneyUITests.swift */; };
+		D23345F727538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23345F627538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift */; };
+		D23346062753A226004E36D4 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23346052753A226004E36D4 /* ColorTheme.swift */; };
+		D23346082753A239004E36D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23346072753A239004E36D4 /* Constants.swift */; };
+		D233460A2753A2DC004E36D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23346092753A2DC004E36D4 /* Extensions.swift */; };
+		D233461D2753AD22004E36D4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233461C2753AD22004E36D4 /* Enums.swift */; };
+		D286D79F277706D200A054B0 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D286D79E277706D200A054B0 /* OnBoarding.swift */; };
+		D286D7A1277712D000A054B0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D286D7A0277712D000A054B0 /* OnBoardingViewModel.swift */; };
+		D294F0D2277EE9CC00AABCA4 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D294F0D1277EE9CC00AABCA4 /* AuthenticationViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23345E727538303004E36D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23345CE27538301004E36D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23345D527538301004E36D4;
+			remoteInfo = MaakanMoney;
+		};
+		D23345F127538303004E36D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23345CE27538301004E36D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23345D527538301004E36D4;
+			remoteInfo = MaakanMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0516752BCA898100955E81 /* TermsAndCondition.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TermsAndCondition.json; sourceTree = "<group>"; };
+		0F05167B2BCAA53600955E81 /* TermsAndConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionView.swift; sourceTree = "<group>"; };
+		0F05167D2BCAA54C00955E81 /* TermsAndConditionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionViewModel.swift; sourceTree = "<group>"; };
+		0F0516802BCAA5A100955E81 /* TermsAndConditionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionModel.swift; sourceTree = "<group>"; };
+		0F08F9552BCF995C00CF609E /* SaveMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMoneyView.swift; sourceTree = "<group>"; };
+		0F11A24C2BC6678E008E2CBF /* FAQ.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FAQ.json; sourceTree = "<group>"; };
+		0F11A24E2BC68C57008E2CBF /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		0F13B0BE2B9DA4F00041266F /* MMUIEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMUIEnums.swift; sourceTree = "<group>"; };
+		0F2420712BA569C5003985E0 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		0F2420742BA57B90003985E0 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		0F2420762BA58CA7003985E0 /* GetMobileNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMobileNumberView.swift; sourceTree = "<group>"; };
+		0F2420782BA58D6B003985E0 /* GetOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOTPView.swift; sourceTree = "<group>"; };
+		0F24207A2BA596A1003985E0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0F24207C2BA596B7003985E0 /* SetGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalsView.swift; sourceTree = "<group>"; };
+		0F2E68362C02081000E18CFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F2E68392C020F3000E18CFA /* FirebaseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDataManager.swift; sourceTree = "<group>"; };
+		0F3FE5C62C1B050A00901EBD /* MMUIAlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMUIAlertMessage.swift; sourceTree = "<group>"; };
+		0F52664F2B9B01C900249849 /* MMUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMUITextField.swift; sourceTree = "<group>"; };
+		0F5BCBC82BD93E220025A854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F5BCBCA2BD93E2A0025A854 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0F5FCB0E2BB605150076D613 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		0F5FCB162BB605680076D613 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0F5FCB182BB605730076D613 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0F5FCB1E2BB605BB0076D613 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		0F6206DF2BEBFDEC00F22835 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0F70EF922BA33E2F00AA06F9 /* MMUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMUIButton.swift; sourceTree = "<group>"; };
+		0F70EFF82BE6885300313F93 /* MaakaMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaakaMoney.xcdatamodel; sourceTree = "<group>"; };
+		0F843C112BB6CCF900881C97 /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		0F843C132BB6CD7100881C97 /* GoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalModel.swift; sourceTree = "<group>"; };
+		0F843C152BB6D2CC00881C97 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		0F843C172BB6FBF900881C97 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		0F9A08272B84B7B5009B0195 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0F9F52BB2BC95FE8008ACA54 /* AppProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProtocols.swift; sourceTree = "<group>"; };
+		0FACC2AE2BA4D10100D49548 /* MMUIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMUIExtensions.swift; sourceTree = "<group>"; };
+		0FB0F01B2BEF936200E55661 /* SetGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalViewModel.swift; sourceTree = "<group>"; };
+		0FB0F01D2BEF9AEF00E55661 /* SaveMoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMoneyViewModel.swift; sourceTree = "<group>"; };
+		0FD2D2002BC57C72009ACB70 /* SecurityShieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityShieldView.swift; sourceTree = "<group>"; };
+		0FD2D2022BC57C80009ACB70 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		0FD2D2042BC57C8C009ACB70 /* HelpAndSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndSupportView.swift; sourceTree = "<group>"; };
+		0FE2B7E32BB4462F004EF2DF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0FE2B7E52BB4A68C004EF2DF /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		0FE2B7E72BB4A6E3004EF2DF /* DashboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCoordinator.swift; sourceTree = "<group>"; };
+		0FE2B7E92BB4A702004EF2DF /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		D2292882276C66FF00919369 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D230D6D6275A00E6004B64AA /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		D23345D627538301004E36D4 /* MaakaMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaakaMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23345D927538301004E36D4 /* MaakanMoneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyApp.swift; sourceTree = "<group>"; };
+		D23345DD27538303004E36D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D23345E027538303004E36D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D23345E627538303004E36D4 /* MaakaMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaakaMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23345EA27538303004E36D4 /* MaakanMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyTests.swift; sourceTree = "<group>"; };
+		D23345F027538303004E36D4 /* MaakaMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaakaMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23345F427538303004E36D4 /* MaakanMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyUITests.swift; sourceTree = "<group>"; };
+		D23345F627538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaakanMoneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D23346052753A226004E36D4 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		D23346072753A239004E36D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D23346092753A2DC004E36D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D233461C2753AD22004E36D4 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		D286D79E277706D200A054B0 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		D286D7A0277712D000A054B0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
+		D294F0D1277EE9CC00AABCA4 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23345D327538301004E36D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2E68402C02135F00E18CFA /* FirebaseAnalyticsSwift in Frameworks */,
+				0F2E683C2C02135F00E18CFA /* FirebaseAnalytics in Frameworks */,
+				0F2E68442C02135F00E18CFA /* FirebaseAppDistribution-Beta in Frameworks */,
+				0F2E683E2C02135F00E18CFA /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				0F2E68422C02135F00E18CFA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				0F2E68462C02135F00E18CFA /* FirebaseFirestore in Frameworks */,
+				0F2E68482C02135F00E18CFA /* FirebaseFirestoreCombine-Community in Frameworks */,
+				0F2E684A2C02135F00E18CFA /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345E327538303004E36D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345ED27538303004E36D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0516772BCAA51400955E81 /* TermsAndCondition */ = {
+			isa = PBXGroup;
+			children = (
+				0F05167A2BCAA52700955E81 /* View */,
+				0F0516792BCAA52200955E81 /* ViewModel */,
+				0F0516782BCAA51E00955E81 /* Model */,
+			);
+			path = TermsAndCondition;
+			sourceTree = "<group>";
+		};
+		0F0516782BCAA51E00955E81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F0516802BCAA5A100955E81 /* TermsAndConditionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F0516792BCAA52200955E81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F05167D2BCAA54C00955E81 /* TermsAndConditionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F05167A2BCAA52700955E81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F05167B2BCAA53600955E81 /* TermsAndConditionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F08F9512BCF993000CF609E /* SaveMoney */ = {
+			isa = PBXGroup;
+			children = (
+				0F08F9542BCF994200CF609E /* View */,
+				0F08F9532BCF993D00CF609E /* ViewModel */,
+				0F08F9522BCF993800CF609E /* Model */,
+			);
+			path = SaveMoney;
+			sourceTree = "<group>";
+		};
+		0F08F9522BCF993800CF609E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F08F9532BCF993D00CF609E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FB0F01D2BEF9AEF00E55661 /* SaveMoneyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F08F9542BCF994200CF609E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F08F9552BCF995C00CF609E /* SaveMoneyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F11A24B2BC66746008E2CBF /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0F11A24C2BC6678E008E2CBF /* FAQ.json */,
+				0F0516752BCA898100955E81 /* TermsAndCondition.json */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		0F2420702BA569B4003985E0 /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				D23346052753A226004E36D4 /* ColorTheme.swift */,
+				0F2420712BA569C5003985E0 /* AppTheme.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		0F2420732BA57B80003985E0 /* EnvironmentValues */ = {
+			isa = PBXGroup;
+			children = (
+				0F2420742BA57B90003985E0 /* EnvironmentValues.swift */,
+			);
+			path = EnvironmentValues;
+			sourceTree = "<group>";
+		};
+		0F24207E2BA5C5E5003985E0 /* SetGoal */ = {
+			isa = PBXGroup;
+			children = (
+				0F2420812BA5C607003985E0 /* View */,
+				0F2420802BA5C602003985E0 /* Model */,
+				0F24207F2BA5C5FB003985E0 /* ViewModel */,
+			);
+			path = SetGoal;
+			sourceTree = "<group>";
+		};
+		0F24207F2BA5C5FB003985E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FB0F01B2BEF936200E55661 /* SetGoalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F2420802BA5C602003985E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F2420812BA5C607003985E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F24207C2BA596B7003985E0 /* SetGoalsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F52664E2B9B01A900249849 /* MMUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0F52664F2B9B01C900249849 /* MMUITextField.swift */,
+				0F13B0BE2B9DA4F00041266F /* MMUIEnums.swift */,
+				0F70EF922BA33E2F00AA06F9 /* MMUIButton.swift */,
+				0FACC2AE2BA4D10100D49548 /* MMUIExtensions.swift */,
+				0F3FE5C62C1B050A00901EBD /* MMUIAlertMessage.swift */,
+			);
+			path = MMUIComponents;
+			sourceTree = "<group>";
+		};
+		0F5BCBC72BD93E120025A854 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0F5BCBC82BD93E220025A854 /* AppDelegate.swift */,
+				0F5BCBCA2BD93E2A0025A854 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0F5FCB0C2BB6044E0076D613 /* SettingsTab */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FCB102BB605200076D613 /* View */,
+				0F5FCB112BB605280076D613 /* Model */,
+				0F5FCB122BB6052D0076D613 /* ViewModel */,
+			);
+			path = SettingsTab;
+			sourceTree = "<group>";
+		};
+		0F5FCB0D2BB604550076D613 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FCB132BB605360076D613 /* View */,
+				0F5FCB152BB605430076D613 /* Model */,
+				0F5FCB142BB6053C0076D613 /* ViewModel */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		0F5FCB102BB605200076D613 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FCB162BB605680076D613 /* SettingsView.swift */,
+				0FD2D2002BC57C72009ACB70 /* SecurityShieldView.swift */,
+				0FD2D2022BC57C80009ACB70 /* RemindersView.swift */,
+				0FD2D2042BC57C8C009ACB70 /* HelpAndSupportView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F5FCB112BB605280076D613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F11A24E2BC68C57008E2CBF /* SettingsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F5FCB122BB6052D0076D613 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F843C172BB6FBF900881C97 /* SettingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F5FCB132BB605360076D613 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FCB182BB605730076D613 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F5FCB142BB6053C0076D613 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F5FCB152BB605430076D613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F5FCB1A2BB605840076D613 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FCB1B2BB605910076D613 /* View */,
+				0F5FCB1C2BB605980076D613 /* Model */,
+				0F5FCB1D2BB605A00076D613 /* ViewModel */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0F5FCB1B2BB605910076D613 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FCB1E2BB605BB0076D613 /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F5FCB1C2BB605980076D613 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F5FCB1D2BB605A00076D613 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F843C152BB6D2CC00881C97 /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F6206DE2BEBFC5100F22835 /* ManagerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0F6206DF2BEBFDEC00F22835 /* CoreDataManager.swift */,
+				0F2E68392C020F3000E18CFA /* FirebaseDataManager.swift */,
+			);
+			path = ManagerClasses;
+			sourceTree = "<group>";
+		};
+		0F9F52BA2BC95FD4008ACA54 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0F9F52BB2BC95FE8008ACA54 /* AppProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0FE2B7E22BB422D5004EF2DF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0FE2B7E32BB4462F004EF2DF /* AppCoordinator.swift */,
+				0FE2B7E52BB4A68C004EF2DF /* AuthenticationCoordinator.swift */,
+				0FE2B7E72BB4A6E3004EF2DF /* DashboardCoordinator.swift */,
+				0FE2B7E92BB4A702004EF2DF /* SettingsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0FFEC0AE2BAFFBBC00715A4A /* GoalTab */ = {
+			isa = PBXGroup;
+			children = (
+				0FFEC0AF2BAFFBCA00715A4A /* View */,
+				0FFEC0B22BAFFBF400715A4A /* Model */,
+				0FFEC0B02BAFFBD000715A4A /* ViewModel */,
+			);
+			path = GoalTab;
+			sourceTree = "<group>";
+		};
+		0FFEC0AF2BAFFBCA00715A4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F5FCB0E2BB605150076D613 /* GoalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FFEC0B02BAFFBD000715A4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F843C112BB6CCF900881C97 /* GoalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FFEC0B22BAFFBF400715A4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F843C132BB6CD7100881C97 /* GoalModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2292881276C668200919369 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D2292882276C66FF00919369 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D230D6D5275A00B6004B64AA /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D230D6D6275A00E6004B64AA /* Modifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		D23345CD27538301004E36D4 = {
+			isa = PBXGroup;
+			children = (
+				0F70EFF72BE6885300313F93 /* MaakaMoney.xcdatamodeld */,
+				D23345D827538301004E36D4 /* MaakanMoney */,
+				D23345E927538303004E36D4 /* MaakanMoneyTests */,
+				D23345F327538303004E36D4 /* MaakanMoneyUITests */,
+				D23345D727538301004E36D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23345D727538301004E36D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23345D627538301004E36D4 /* MaakaMoney.app */,
+				D23345E627538303004E36D4 /* MaakaMoneyTests.xctest */,
+				D23345F027538303004E36D4 /* MaakaMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23345D827538301004E36D4 /* MaakanMoney */ = {
+			isa = PBXGroup;
+			children = (
+				0F6206DE2BEBFC5100F22835 /* ManagerClasses */,
+				0F11A24B2BC66746008E2CBF /* SupportFiles */,
+				0FE2B7E22BB422D5004EF2DF /* Coordinator */,
+				0F2420702BA569B4003985E0 /* AppTheme */,
+				0F52664E2B9B01A900249849 /* MMUIComponents */,
+				D233460C2753A86A004E36D4 /* Client */,
+				D23346032753A1F3004E36D4 /* HelperClass */,
+				D23345D927538301004E36D4 /* MaakanMoneyApp.swift */,
+				D23345DD27538303004E36D4 /* Assets.xcassets */,
+				0F2E68362C02081000E18CFA /* GoogleService-Info.plist */,
+				D23345DF27538303004E36D4 /* Preview Content */,
+			);
+			path = MaakanMoney;
+			sourceTree = "<group>";
+		};
+		D23345DF27538303004E36D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D23345E027538303004E36D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D23345E927538303004E36D4 /* MaakanMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D23345EA27538303004E36D4 /* MaakanMoneyTests.swift */,
+			);
+			path = MaakanMoneyTests;
+			sourceTree = "<group>";
+		};
+		D23345F327538303004E36D4 /* MaakanMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D23345F427538303004E36D4 /* MaakanMoneyUITests.swift */,
+				D23345F627538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift */,
+			);
+			path = MaakanMoneyUITests;
+			sourceTree = "<group>";
+		};
+		D23346032753A1F3004E36D4 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				0F5BCBC72BD93E120025A854 /* Delegate */,
+				0F9F52BA2BC95FD4008ACA54 /* Protocols */,
+				0F2420732BA57B80003985E0 /* EnvironmentValues */,
+				D2292881276C668200919369 /* Utilities */,
+				D230D6D5275A00B6004B64AA /* Modifiers */,
+				D233461B2753AD12004E36D4 /* Enums */,
+				D23346172753A9BF004E36D4 /* Constants */,
+				D23346162753A9B5004E36D4 /* Extensions */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		D233460C2753A86A004E36D4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				0F08F9512BCF993000CF609E /* SaveMoney */,
+				0F0516772BCAA51400955E81 /* TermsAndCondition */,
+				0F5FCB1A2BB605840076D613 /* Dashboard */,
+				0F5FCB0D2BB604550076D613 /* HomeTab */,
+				0F5FCB0C2BB6044E0076D613 /* SettingsTab */,
+				0FFEC0AE2BAFFBBC00715A4A /* GoalTab */,
+				0F24207E2BA5C5E5003985E0 /* SetGoal */,
+				D286D7A227773AC600A054B0 /* Authentication */,
+				D286D79A2777066400A054B0 /* OnBoarding */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		D23346162753A9B5004E36D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D23346092753A2DC004E36D4 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D23346172753A9BF004E36D4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D23346072753A239004E36D4 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D233461B2753AD12004E36D4 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D233461C2753AD22004E36D4 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D286D79A2777066400A054B0 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D286D79D2777068900A054B0 /* ViewModel */,
+				D286D79C2777068400A054B0 /* Model */,
+				D286D79B2777067E00A054B0 /* View */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		D286D79B2777067E00A054B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D286D79E277706D200A054B0 /* OnBoarding.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D286D79C2777068400A054B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D286D79D2777068900A054B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D286D7A0277712D000A054B0 /* OnBoardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D286D7A227773AC600A054B0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D286D7A527773ADC00A054B0 /* ViewModel */,
+				D286D7A427773AD500A054B0 /* Model */,
+				D286D7A327773AD000A054B0 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D286D7A327773AD000A054B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F9A08272B84B7B5009B0195 /* LoginView.swift */,
+				0F2420762BA58CA7003985E0 /* GetMobileNumberView.swift */,
+				0F2420782BA58D6B003985E0 /* GetOTPView.swift */,
+				0F24207A2BA596A1003985E0 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D286D7A427773AD500A054B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D286D7A527773ADC00A054B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D294F0D1277EE9CC00AABCA4 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23345D527538301004E36D4 /* MaakaMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23345FA27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakaMoney" */;
+			buildPhases = (
+				D23345D227538301004E36D4 /* Sources */,
+				D23345D327538301004E36D4 /* Frameworks */,
+				D23345D427538301004E36D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaakaMoney;
+			packageProductDependencies = (
+				0F2E683B2C02135F00E18CFA /* FirebaseAnalytics */,
+				0F2E683D2C02135F00E18CFA /* FirebaseAnalyticsOnDeviceConversion */,
+				0F2E683F2C02135F00E18CFA /* FirebaseAnalyticsSwift */,
+				0F2E68412C02135F00E18CFA /* FirebaseAnalyticsWithoutAdIdSupport */,
+				0F2E68432C02135F00E18CFA /* FirebaseAppDistribution-Beta */,
+				0F2E68452C02135F00E18CFA /* FirebaseFirestore */,
+				0F2E68472C02135F00E18CFA /* FirebaseFirestoreCombine-Community */,
+				0F2E68492C02135F00E18CFA /* FirebaseFirestoreSwift */,
+			);
+			productName = MaakanMoney;
+			productReference = D23345D627538301004E36D4 /* MaakaMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23345E527538303004E36D4 /* MaakaMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23345FD27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakaMoneyTests" */;
+			buildPhases = (
+				D23345E227538303004E36D4 /* Sources */,
+				D23345E327538303004E36D4 /* Frameworks */,
+				D23345E427538303004E36D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23345E827538303004E36D4 /* PBXTargetDependency */,
+			);
+			name = MaakaMoneyTests;
+			productName = MaakanMoneyTests;
+			productReference = D23345E627538303004E36D4 /* MaakaMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D23345EF27538303004E36D4 /* MaakaMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D233460027538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakaMoneyUITests" */;
+			buildPhases = (
+				D23345EC27538303004E36D4 /* Sources */,
+				D23345ED27538303004E36D4 /* Frameworks */,
+				D23345EE27538303004E36D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23345F227538303004E36D4 /* PBXTargetDependency */,
+			);
+			name = MaakaMoneyUITests;
+			productName = MaakanMoneyUITests;
+			productReference = D23345F027538303004E36D4 /* MaakaMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23345CE27538301004E36D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D23345D527538301004E36D4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D23345E527538303004E36D4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D23345D527538301004E36D4;
+					};
+					D23345EF27538303004E36D4 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D23345D527538301004E36D4;
+					};
+				};
+			};
+			buildConfigurationList = D23345D127538301004E36D4 /* Build configuration list for PBXProject "MaakaMoney" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D23345CD27538301004E36D4;
+			packageReferences = (
+				0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = D23345D727538301004E36D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23345D527538301004E36D4 /* MaakaMoney */,
+				D23345E527538303004E36D4 /* MaakaMoneyTests */,
+				D23345EF27538303004E36D4 /* MaakaMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23345D427538301004E36D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F11A24D2BC6750C008E2CBF /* FAQ.json in Resources */,
+				D23345E127538303004E36D4 /* Preview Assets.xcassets in Resources */,
+				0F2E68372C02081000E18CFA /* GoogleService-Info.plist in Resources */,
+				D23345DE27538303004E36D4 /* Assets.xcassets in Resources */,
+				0F0516762BCA909500955E81 /* TermsAndCondition.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345E427538303004E36D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345EE27538303004E36D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23345D227538301004E36D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3FE5C72C1B050A00901EBD /* MMUIAlertMessage.swift in Sources */,
+				D286D7A1277712D000A054B0 /* OnBoardingViewModel.swift in Sources */,
+				0F5FCB192BB605730076D613 /* HomeView.swift in Sources */,
+				0F70EF932BA33E2F00AA06F9 /* MMUIButton.swift in Sources */,
+				0F05167E2BCAA54C00955E81 /* TermsAndConditionViewModel.swift in Sources */,
+				D233460A2753A2DC004E36D4 /* Extensions.swift in Sources */,
+				0F5266502B9B01C900249849 /* MMUITextField.swift in Sources */,
+				0FB0F01E2BEF9AEF00E55661 /* SaveMoneyViewModel.swift in Sources */,
+				0F9F52BC2BC95FE8008ACA54 /* AppProtocols.swift in Sources */,
+				0F5BCBCB2BD93E2A0025A854 /* SceneDelegate.swift in Sources */,
+				0F6206E02BEBFDEC00F22835 /* CoreDataManager.swift in Sources */,
+				D230D6D7275A00E6004B64AA /* Modifiers.swift in Sources */,
+				0FE2B7E62BB4A68C004EF2DF /* AuthenticationCoordinator.swift in Sources */,
+				0F843C162BB6D2CC00881C97 /* DashboardViewModel.swift in Sources */,
+				0F843C182BB6FBF900881C97 /* SettingsViewModel.swift in Sources */,
+				0F70EFF92BE6885300313F93 /* MaakaMoney.xcdatamodeld in Sources */,
+				0FB0F01C2BEF936200E55661 /* SetGoalViewModel.swift in Sources */,
+				0FE2B7E42BB4462F004EF2DF /* AppCoordinator.swift in Sources */,
+				0F2420792BA58D6B003985E0 /* GetOTPView.swift in Sources */,
+				0F0516812BCAA5A100955E81 /* TermsAndConditionModel.swift in Sources */,
+				0F2420752BA57B90003985E0 /* EnvironmentValues.swift in Sources */,
+				D286D79F277706D200A054B0 /* OnBoarding.swift in Sources */,
+				D2292883276C66FF00919369 /* Utilities.swift in Sources */,
+				0F13B0BF2B9DA4F00041266F /* MMUIEnums.swift in Sources */,
+				D294F0D2277EE9CC00AABCA4 /* AuthenticationViewModel.swift in Sources */,
+				D23346062753A226004E36D4 /* ColorTheme.swift in Sources */,
+				0FE2B7EA2BB4A702004EF2DF /* SettingsCoordinator.swift in Sources */,
+				0F9A08282B84B7B5009B0195 /* LoginView.swift in Sources */,
+				0F24207B2BA596A1003985E0 /* SignUpView.swift in Sources */,
+				0F11A24F2BC68C57008E2CBF /* SettingsModel.swift in Sources */,
+				0FD2D2052BC57C8C009ACB70 /* HelpAndSupportView.swift in Sources */,
+				0F2420722BA569C5003985E0 /* AppTheme.swift in Sources */,
+				0FE2B7E82BB4A6E3004EF2DF /* DashboardCoordinator.swift in Sources */,
+				0FD2D2032BC57C80009ACB70 /* RemindersView.swift in Sources */,
+				0FACC2AF2BA4D10100D49548 /* MMUIExtensions.swift in Sources */,
+				D233461D2753AD22004E36D4 /* Enums.swift in Sources */,
+				0F5FCB172BB605680076D613 /* SettingsView.swift in Sources */,
+				0F5BCBC92BD93E220025A854 /* AppDelegate.swift in Sources */,
+				0F2E683A2C020F3000E18CFA /* FirebaseDataManager.swift in Sources */,
+				0F2420772BA58CA7003985E0 /* GetMobileNumberView.swift in Sources */,
+				0F05167C2BCAA53600955E81 /* TermsAndConditionView.swift in Sources */,
+				D23345DA27538301004E36D4 /* MaakanMoneyApp.swift in Sources */,
+				0F5FCB1F2BB605BB0076D613 /* DashboardView.swift in Sources */,
+				0F5FCB0F2BB605150076D613 /* GoalView.swift in Sources */,
+				0F08F9562BCF995C00CF609E /* SaveMoneyView.swift in Sources */,
+				D23346082753A239004E36D4 /* Constants.swift in Sources */,
+				0F2420832BA5C652003985E0 /* SetGoalsView.swift in Sources */,
+				0F843C142BB6CD7100881C97 /* GoalModel.swift in Sources */,
+				0F843C122BB6CCF900881C97 /* GoalViewModel.swift in Sources */,
+				0FD2D2012BC57C72009ACB70 /* SecurityShieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345E227538303004E36D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23345EB27538303004E36D4 /* MaakanMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23345EC27538303004E36D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23345F727538303004E36D4 /* MaakanMoneyUITestsLaunchTests.swift in Sources */,
+				D23345F527538303004E36D4 /* MaakanMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23345E827538303004E36D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23345D527538301004E36D4 /* MaakaMoney */;
+			targetProxy = D23345E727538303004E36D4 /* PBXContainerItemProxy */;
+		};
+		D23345F227538303004E36D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23345D527538301004E36D4 /* MaakaMoney */;
+			targetProxy = D23345F127538303004E36D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D23345F827538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D23345F927538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23345FB27538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaakanMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H97UR777T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Maaka Money";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Authentication with Face ID or Touch ID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manlog.maakamoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D23345FC27538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_ASSET_PATHS = "\"MaakanMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H97UR777T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Maaka Money";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Authentication with Face ID or Touch ID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manlog.maakamoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D23345FE27538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaakaMoney.app/MaakaMoney";
+			};
+			name = Debug;
+		};
+		D23345FF27538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaakaMoney.app/MaakaMoney";
+			};
+			name = Release;
+		};
+		D233460127538303004E36D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaakanMoney;
+			};
+			name = Debug;
+		};
+		D233460227538303004E36D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Manlog.MaakanMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaakanMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23345D127538301004E36D4 /* Build configuration list for PBXProject "MaakaMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23345F827538303004E36D4 /* Debug */,
+				D23345F927538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23345FA27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakaMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23345FB27538303004E36D4 /* Debug */,
+				D23345FC27538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23345FD27538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakaMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23345FE27538303004E36D4 /* Debug */,
+				D23345FF27538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D233460027538303004E36D4 /* Build configuration list for PBXNativeTarget "MaakaMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D233460127538303004E36D4 /* Debug */,
+				D233460227538303004E36D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F2E683B2C02135F00E18CFA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0F2E683D2C02135F00E18CFA /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		0F2E683F2C02135F00E18CFA /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		0F2E68412C02135F00E18CFA /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		0F2E68432C02135F00E18CFA /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		0F2E68452C02135F00E18CFA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0F2E68472C02135F00E18CFA /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		0F2E68492C02135F00E18CFA /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2E68382C020BB200E18CFA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0F70EFF72BE6885300313F93 /* MaakaMoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F70EFF82BE6885300313F93 /* MaakaMoney.xcdatamodel */,
+			);
+			currentVersion = 0F70EFF82BE6885300313F93 /* MaakaMoney.xcdatamodel */;
+			path = MaakaMoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D23345CE27538301004E36D4 /* Project object */;
+}

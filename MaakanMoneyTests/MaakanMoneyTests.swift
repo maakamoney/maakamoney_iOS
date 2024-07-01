@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import MaakanMoney
+@testable import MaakaMoney
 
 class MaakanMoneyTests: XCTestCase {
 
